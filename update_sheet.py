@@ -26,7 +26,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
 client = gspread.authorize(creds)
 
 # Google Sheet ID
-spreadsheet_id = "1D4QckE_FCcBjzVn3ge7G4Xvx95i4fZRYlXRAllNzg9o"
+spreadsheet_id = "1n5u-EbRzr2wBwTQPhNPzR_as_qM6ek5702cRQ6dIYuE"
 
 worksheet = client.open_by_key(spreadsheet_id).worksheet("ETF Stocks")
 
